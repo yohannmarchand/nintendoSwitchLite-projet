@@ -5,4 +5,18 @@
   height: 85vh;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.header__title{
+
+  font-size: 150%;
+  font-weight: 400;
+  margin-bottom: 15px;
+
+  span{
+    color : $redNintendo;
+  }
 }

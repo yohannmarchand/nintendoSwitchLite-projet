@@ -1,0 +1,23 @@
+{
+  "name": "devfront-projet-nintendoswitchlite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yohannmarchand/nintendoSwitchLite-projet.git"
+  },
+  "author": "Yohann Marchand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yohannmarchand/nintendoSwitchLite-projet/issues"
+  },
+  "homepage": "https://github.com/yohannmarchand/nintendoSwitchLite-projet#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}

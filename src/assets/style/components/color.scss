@@ -9,13 +9,19 @@
 
     img{
         height: 100%;
+        transition: transform .7s ease-in;
+
+    }
+
+    img:hover{
+        transform: scale(1.2);
     }
 }
 
 .color__title{
 
     text-align: center;
-    font-size: x-large;
+    font-size: 50px;
     font-weight: bolder;
     margin: 25px;
 

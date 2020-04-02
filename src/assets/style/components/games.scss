@@ -1,0 +1,27 @@
+.games__title{
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 25px;
+    color : $blueNintendo;
+}
+
+.games__slider{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img{
+        width: 47%;
+        margin:2px;
+        transition: transform .5s ease-in;
+
+    }
+
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+

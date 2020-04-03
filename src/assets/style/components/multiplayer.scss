@@ -32,3 +32,21 @@ div:first-child .multiplayer__band{
 
     margin: 0px 15px;
 }
+
+.multiplayer{
+
+    @include largeScreen {
+
+        display: flex;
+    }
+
+    >div{
+        @include largeScreen {
+
+            width: 49%;
+            margin:3px;
+        }
+    }
+
+
+}

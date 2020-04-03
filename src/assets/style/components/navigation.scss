@@ -43,15 +43,7 @@ nav .navigation__triger{
     align-items: center;
     height: 0px;
     transition: height 1000ms linear;
-    
-    a{
-        color: white;
-        text-decoration: none;
-        font-size: larger;
-        margin:10px 0px;
-        opacity: 0;
 
-    }
 }
 
 .navigation__box--activ{
@@ -61,4 +53,39 @@ nav .navigation__triger{
     a{
         opacity: 1;
     }
+}
+
+.navigation__link{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    margin:10px 0px;
+    opacity: 0;
+}
+
+.navigation__band .navigation__link{
+
+    @include largeScreen{
+        display: inline-block;
+        margin:0px 20px
+    }
+
+}
+
+div .navigation__triger{
+    @include largeScreen{
+        display: none;
+    }
+}
+
+.navigation__band div{
+
+    @include largeScreen{
+        margin-left: auto;
+        display: flex;
+
+        
+    }
+    display: none;
+
 }

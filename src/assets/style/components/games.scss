@@ -18,6 +18,11 @@
         margin:2px;
         transition: transform .5s ease-in;
 
+        @include largeScreen {
+
+            width: 31%;
+        }
+
     }
 
     img:hover{

@@ -1,0 +1,6 @@
+
+@mixin largeScreen {
+    @media (min-width: 950px) {
+      @content;
+    }
+  }

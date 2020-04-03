@@ -2,6 +2,17 @@
 padding: 15px;
 
 margin: 10px;
+
+    @include largeScreen{
+        display: flex;
+    }
+
+    div{
+        @include largeScreen{
+            font-size: x-large;
+            margin-left: 40px;
+        } 
+    }
 }
 
 .carateristic__title{
@@ -16,4 +27,11 @@ margin: 10px;
 .carateristic__text{
 
     margin: 15px 0px;
+
+}
+
+.carateristic__console{
+    @include largeScreen{
+        transform: translateX(25%);
+    }
 }

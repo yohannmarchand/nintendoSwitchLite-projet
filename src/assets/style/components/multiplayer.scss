@@ -1,0 +1,34 @@
+.multiplayer__band{
+
+    height: 150px;
+    margin:15px 0px;
+}
+
+div:last-child .multiplayer__band{
+
+    background:url("../../assets/img/img-nso.png");
+    background-position: center;
+    background-size: contain;
+}
+
+div:first-child .multiplayer__band{
+
+    background:url("../../assets/img/NSwitchMultiplayer_image950w.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.multiplayer__title{
+
+    text-align: center;
+    color: $redNintendo;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.multiplayer__text{
+
+    margin: 0px 15px;
+}
